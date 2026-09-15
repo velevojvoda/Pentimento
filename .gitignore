@@ -1,0 +1,6 @@
+out/
+build/
+.vs/
+CMakeUserPresets.json
+data/*
+!data/README.md
