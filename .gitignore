@@ -1,6 +1,20 @@
+# Build output
 out/
 build/
 .vs/
 CMakeUserPresets.json
+CMakeSettings.json
+
+# Dataset: MetObjects.csv, API metadata, downloaded images
 data/*
 !data/README.md
+
+# Models and feature cache - too large for git
+# (GitHub hard-rejects any single file over 100 MB)
+models/*
+!models/README.md
+!models/labels.json
+cache/
+
+# Downloaded dependencies
+third_party/onnxruntime/
