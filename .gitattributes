@@ -61,3 +61,15 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# Pentimento
+###############################################################################
+*.onnx  binary
+*.bin   binary
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+
+# Byte-identical CSV fixtures across platforms, regardless of core.autocrlf
+*.csv   text eol=lf
