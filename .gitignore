@@ -18,3 +18,7 @@ cache/
 
 # Downloaded dependencies
 third_party/onnxruntime/
+
+# Python
+.venv/
+__pycache__/
